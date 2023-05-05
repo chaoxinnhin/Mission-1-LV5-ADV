@@ -1,0 +1,170 @@
+.navlink {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.navlink__menu {
+  margin: 1rem;
+}
+.navlink__menuLink {
+  font-size: 0.8rem;
+  padding: 0.8rem;
+  text-decoration: none;
+  color: #0076be;
+}
+.navlink__menuLink:hover {
+  color: black;
+}
+
+.navbar {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  background-color: #0076be;
+  width: 100vw;
+}
+.navbar__menu {
+  display: flex;
+  margin: 0rem 21rem;
+}
+.navbar__menuLink {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+.navbar__menuLink:hover {
+  background-color: #004a86;
+}
+.navbar__menuLink2 {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10rem;
+}
+.navbar__menuLink2L {
+  display: flex;
+  padding: 1rem;
+}
+.navbar__menuLink2L:hover {
+  background-color: #004a86;
+}
+.navbar__menu a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+
+.logo__panel {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 0rem 21rem;
+  margin-top: 1rem;
+}
+.logo__panelRegistration {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.logo__panelRegistration p1 {
+  font-size: 0.9rem;
+  padding: 1rem;
+}
+.logo__panelRegistration p1:hover {
+  color: #b71234;
+}
+.logo__panelRegistration a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+.logo__panelRegistration a:hover {
+  color: #b71234;
+}
+
+.content {
+  background-color: white;
+  height: 50vh;
+  margin-left: 17rem;
+  margin-right: 17rem;
+}
+.content__containerLinks {
+  padding: 2rem 5rem;
+  font-size: 0.7rem;
+}
+.content__containerLinks a {
+  color: #0076be;
+  text-decoration: none;
+}
+.content__containerAuction {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.content__containerAuction h2 {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 8rem;
+}
+.content__containerAuction p1 {
+  margin-left: 5rem;
+  font-size: 0.9rem;
+}
+.content__containerAuction a {
+  text-decoration: none;
+  color: #0076be;
+}
+.content__containerRegister {
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: -7rem;
+  width: 40rem;
+}
+.content__containerRegisterHeading {
+  text-align: start;
+  background-color: #0076be;
+  color: white;
+  font-size: 0.6rem;
+  width: 33rem;
+  padding: 1rem;
+  margin-right: 5rem;
+}
+.content__containerRegisterTextBox {
+  background-color: rgba(238, 238, 238, 0.9333333333);
+  margin-right: 5rem;
+  padding: 0rem 2rem;
+  margin-bottom: 1rem;
+}
+.content__containerRegisterTextBox li {
+  font-size: 0.9rem;
+}
+.content__containerRegisterTextBox p1 {
+  font-size: 0.9rem;
+}
+.content__containerRegisterTextBox button {
+  margin-top: 1rem;
+  margin-bottom: 1.2rem;
+  padding: 0.8rem 3rem;
+  background-color: #13b72c;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.main {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.content__box {
+  height: 100vh;
+  background-color: #eeeeee;
+}
+
+.chatBox {
+  display: flex;
+  justify-content: flex-end;
+}/*# sourceMappingURL=styles.css.map */

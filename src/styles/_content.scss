@@ -1,0 +1,91 @@
+@use "color" as c;
+
+.content {
+  background-color: white;
+  height: 50vh;
+  margin-left: 17rem;
+  margin-right: 17rem;
+
+  &__containerLinks {
+    padding: 2rem 5rem;
+    font-size: 0.7rem;
+
+    a {
+      color: c.$primary-color;
+      text-decoration: none;
+    }
+  }
+
+  &__containerAuction {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+    h2 {
+      display: flex;
+      justify-content: flex-start;
+      margin-left: 8rem;
+    }
+
+    p1 {
+      margin-left: 5rem;
+      font-size: 0.9rem;
+    }
+
+    a {
+      text-decoration: none;
+      color: c.$primary-color;
+    }
+  }
+
+  &__containerRegister {
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -7rem;
+    width: 40rem;
+    &Heading {
+      text-align: start;
+      background-color: c.$primary-color;
+      color: white;
+      font-size: 0.6rem;
+      width: 33rem;
+      padding: 1rem;
+      margin-right: 5rem;
+    }
+
+    &TextBox {
+      background-color: #eeee;
+      margin-right: 5rem;
+      padding: 0rem 2rem;
+      margin-bottom: 1rem;
+      li {
+        font-size: 0.9rem;
+      }
+      p1 {
+        font-size: 0.9rem;
+      }
+
+      button {
+        margin-top: 1rem;
+        margin-bottom: 1.2rem;
+        padding: 0.8rem 3rem;
+        background-color: #13b72c;
+        color: white;
+        border: none;
+        border-radius: 0.5rem;
+      }
+    }
+  }
+}
+
+.chatBot {
+  float: right;
+  position: fixed;
+  right: 0.25rem;
+  bottom: 0.25rem;
+}

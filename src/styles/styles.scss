@@ -1,0 +1,14 @@
+@use "color" as c;
+@use "navlink";
+@use "navbar";
+@use "logo";
+@use "content";
+
+.main {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.content__box {
+  height: 100vh;
+  background-color: #eeeeee;
+}

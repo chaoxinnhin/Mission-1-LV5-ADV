@@ -1,0 +1,21 @@
+@use "color" as c;
+
+.navlink {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  &__menu {
+    margin: 1rem;
+  }
+
+  &__menuLink {
+    font-size: 0.8rem;
+    padding: 0.8rem;
+    text-decoration: none;
+    color: c.$primary-color;
+    &:hover {
+      color: black;
+    }
+  }
+}
