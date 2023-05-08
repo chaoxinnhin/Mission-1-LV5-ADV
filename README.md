@@ -29,7 +29,7 @@
 <h3 align="center">My_Company_Listing</h3>
 
   <p align="center">
-    Mission 0
+    Mission 1
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -56,13 +56,13 @@
 
 ## About The Project
 
-Here is my Mission 0 for LV5 Advanced Software Developement. I pretty much thought about car listing websites as soon as I read listing site. It is simple but there are still things that I need to work on like responsiveness, nesting in scss, relocating the search bar as UX designer has mentioned and using React. However, transitioning into React wouldn't be an issue.
+Here is my Mission 1 for LV5 Advanced Software Developement. For this project I created a functional chatbot using Dialogflow. It was the first time creating one so there are some flaws to it. I will say that the main critique that it needs to be nore conversational.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Built With
 
-HTML
+React Js
 <br>
 SCSS
 
@@ -75,10 +75,14 @@ SCSS
 
 You can copy the link by clicking on code and it should reveal the link. Once you have copied the code, hop into your Visual Studio Code and type in your terminal 
  ```sh
-  git clone https://github.com/chaoxinnhin/Mission-0-LV5-ADV.git
+  git clone https://github.com/chaoxinnhin/Mission-1-LV5-ADV.git
   ```
-That should clone this repository into your files. Make sure to click the Go live button at the bottom right corner and make sure to also enter:
- ```sh
+That should clone this repository into your files. Make sure to open the directory into your terminal and enter the following:
+ ```
+  -- npm start
+  ```
+Don't forget to also enter this:
+ ```
   --watch sass styles:styles
   ```
 ### Prerequisites
@@ -98,6 +102,6 @@ VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=glenn22
 
 Chao Xin - chaon@missionreadyhq.com
 
-Project Link: https://github.com/chaoxinnhin/Mission-0-LV5-ADV.git
+Project Link: https://github.com/chaoxinnhin/Mission-1-LV5-ADV.git
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
