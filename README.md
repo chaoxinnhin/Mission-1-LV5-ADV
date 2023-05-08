@@ -55,7 +55,7 @@
 
 ## About The Project
 
-Here is my Mission 1 for LV5 Advanced Software Developement. For this project I created a functional chatbot using Dialogflow. It was the first time creating one so there are some flaws to it. I will say that the main critique that it needs to be nore conversational.
+Here is my Mission 1 for LV5 Advanced Software Developement. For this project I created a functional chatbot using Dialogflow. It was the first time creating one so there are some flaws to it. I will say that the main critique that it needs to be more conversational.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
