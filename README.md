@@ -86,7 +86,7 @@ That should clone this repository into your files. Make sure to open the directo
 Don't forget to also enter this:
 
 ```
- --watch sass styles:styles
+ sass --watch styles:styles
 ```
 
 ### Prerequisites
