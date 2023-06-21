@@ -105,7 +105,7 @@ VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=glenn22
 
 ## Contact
 
-Chao Xin - chaon@missionreadyhq.com
+Chao Xin - chaoxin.nin@gmail.com
 
 Project Link: https://github.com/chaoxinnhin/Mission-1-LV5-ADV.git
 
